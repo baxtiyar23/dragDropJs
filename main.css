@@ -1,0 +1,104 @@
+:root{
+  --green : #07e737;
+  --yellov :#f5ba43;
+  --blue : #3d8eff;
+  --dark : #333333;
+  --light: #FFF;
+
+  --middle-dark:#454545;
+  --light-drak :#636262;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333333;  
+  margin-top: 100px;  
+  
+  color: var(--light);
+}
+
+.container{
+  display: flex;
+  gap: 50px;
+  height: max-content;
+}
+.board1{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 200px;
+  height: auto;
+  background: var(--middle-dark);
+}
+.board2{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 200px;
+  height: auto;
+  background: var(--middle-dark);
+}
+.board3{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 200px;
+  height: auto;
+  background: var(--middle-dark);
+}
+.header-todo{
+  background: var(--blue);
+  padding: 0.3rem;
+ 
+}
+.header-progress{
+  background:var(--yellov) ;
+  padding: 0.3rem;
+}
+.header-done{
+  background:var(--green) ;
+  padding: 0.3rem;
+}
+
+.card{
+  width: 100%;
+  height: auto;
+  background: var(--light-drak) ;
+}
+.btn{
+  margin-left: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 150px;
+  height: 50px;
+  background: var(--green);
+  border: none;
+  color: var(--light);
+}
+.todo-board{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.progress-board{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.done-board{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

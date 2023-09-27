@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>5 Modul</title>
+    <link rel="stylesheet" href="/main.css" />
+    
+   <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="board1" >
+          <div class="todo-board" ondrop ="drop(event)" ondragover="allowDrop(event)" >
+              <h2 class="header-todo"  >Todo</h2>
+              
+             
+          </div>
+          <button class="btn" id="todo-btn">add new task</button>
+      </div>
+      <div class="board2">
+          <div class="progress-board" ondrop ="drop(event)" ondragover="allowDrop(event)" >
+              <h2 class="header-progress">In progress</h2>
+             
+          </div>
+          <button class="btn" id="progress-btn">add new task</button>
+
+      </div>
+      <div class="board3">
+          <div class="done-board" ondrop ="drop(event)" ondragover="allowDrop(event)">
+              <h2 class="header-done"> Done</h2>
+               
+          </div>
+          <button class="btn" id="done-btn">add new task</button>
+
+      </div>
+   
+
+  </div>
+  </body>
+</html>
